@@ -1,8 +1,8 @@
 require "test_helper"
 
-class MudasControllerTest < ActionDispatch::IntegrationTest
+class LinesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get mudas_index_url
+    get lines_index_url
     assert_response :success
   end
 end
